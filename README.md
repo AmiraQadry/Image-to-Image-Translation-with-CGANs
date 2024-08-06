@@ -84,7 +84,7 @@ The model's performance can be visualized during training by generating images a
 
 [Epoch 20/50] [D loss: 0.328633, acc:  43%] [G loss: 11.146451] time: 0:09:10.127174
 
-[Epoch 30/50] [D loss: 0.090228, acc:  88%] [G loss: 0.176383] time: 0:13:51.854099
+[Epoch 30/50] [D loss: 0.194349, acc:  73%] [G loss: 8.951402] time: 0:13:30.509368
 
-[Epoch 40/50] [D loss: 0.050035, acc:  98%] [G loss: 0.144893] time: 0:18:18.380364
+[Epoch 40/50] [D loss: 0.226704, acc:  66%] [G loss: 9.188933] time: 0:17:50.462690
 ```
