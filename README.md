@@ -64,23 +64,23 @@ The model's performance can be visualized during training by generating images a
 ### Cityscapes Dataset
 
 ```
-[Epoch 0/50] [D loss: 0.435820, acc:  45%] [G loss: 1.076018] time: 0:00:28.481640
+[Epoch 0/50] [D loss: 0.396203, acc:  54%] [G loss: 24.742083] time: 0:00:38.267315
 
-[Epoch 10/50] [D loss: 0.292950, acc:  31%] [G loss: 0.299010] time: 0:04:44.492710
+[Epoch 10/50] [D loss: 0.403096, acc:  57%] [G loss: 18.573973] time: 0:04:54.837506
 
-[Epoch 20/50] [D loss: 0.266746, acc:  52%] [G loss: 0.238130] time: 0:09:04.553434
+[Epoch 20/50] [D loss: 0.209025, acc:  67%] [G loss: 16.076872] time: 0:09:11.809215
 
-[Epoch 30/50] [D loss: 0.165246, acc:  79%] [G loss: 0.147497] time: 0:13:22.647565
+[Epoch 30/50] [D loss: 0.137265, acc:  85%] [G loss: 13.887999] time: 0:13:27.634520
 
-[Epoch 40/50] [D loss: 0.076854, acc:  93%] [G loss: 0.122627] time: 0:17:42.062404
+[Epoch 40/50] [D loss: 0.160753, acc:  79%] [G loss: 12.809147] time: 0:17:44.067309
 ```
 
 ### edges2shoes Dataset
 
 ```
-[Epoch 0/50] [D loss: 0.102226, acc:  88%] [G loss: 12.834969] time: 0:00:42.181149
+[Epoch 0/50] [D loss: 0.335585, acc:  42%] [G loss: 22.821291] time: 0:00:30.354340
 
-[Epoch 10/50] [D loss: 0.010180, acc:  99%] [G loss: 0.179482] time: 0:05:04.768773
+[Epoch 10/50] [D loss: 0.203647, acc:  70%] [G loss: 13.291032] time: 0:04:49.640040
 
 [Epoch 20/50] [D loss: 0.004425, acc: 100%] [G loss: 0.126131] time: 0:09:28.213779
 
