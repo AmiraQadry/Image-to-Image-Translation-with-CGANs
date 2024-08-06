@@ -57,34 +57,6 @@ To train the CGAN model on the edges2shoes dataset, run:
 train("edges2shoes", epochs=50, batch_size=32, show_interval=10)
 ```
 
-### Example Output
-
-During training, the model will output the losses and accuracy of both the generator and discriminator. For example:
-
-```
-[Epoch 0/50] [D loss: 0.435820, acc:  45%] [G loss: 1.076018] time: 0:00:28.481640
-
-[Epoch 10/50] [D loss: 0.292950, acc:  31%] [G loss: 0.299010] time: 0:04:44.492710
-
-[Epoch 20/50] [D loss: 0.266746, acc:  52%] [G loss: 0.238130] time: 0:09:04.553434
-
-[Epoch 30/50] [D loss: 0.165246, acc:  79%] [G loss: 0.147497] time: 0:13:22.647565
-
-[Epoch 40/50] [D loss: 0.076854, acc:  93%] [G loss: 0.122627] time: 0:17:42.062404
-```
-
-### Training on Cityscapes Dataset
-
-```python
-train("cityscapes", epochs=50, batch_size=32, show_interval=10)
-```
-
-### Training on edges2shoes Dataset
-
-```python
-train("edges2shoes", epochs=50, batch_size=32, show_interval=10)
-```
-
 ## Results
 
 The model's performance can be visualized during training by generating images at specified intervals. Example generated images can be shown using the `show_images` function defined in the training script.
